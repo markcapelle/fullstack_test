@@ -1,27 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starter Test</title>
-</head>
-<body>
-    <h1>Hello</h1>
-    <h2>Hello</h2>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starter Test</title>
+</head>
+
+<body>
+  <h1>Heading1 Hello</h1>
+  <h2>Heading2 Hello</h2>
+  <p>The page is broken up into sections.</p>
+  
+  <main>
+    <h2>Paragraph</h2>
     <p>
-        this is a paragraph
-        some more text on next line but same paragraph
+      this is a paragraph;
+      some more text on next line but same paragraph, in code linebreaks are ignored.
     </p>
 
-    <ol type="i">
+    <section>
+      <h2>Line Break</h2>
+      this is the first line ending in line break <br /> and then we get the next line directly below.
+    </section>
+
+
+    <section>
+      <h2>Unordered List</h2>
+      An unordered list, or a bullet point list
+      <ul>
         <li>
-            item 1
+          item 1
         </li>
         <li>
-            item 2
+          item 2
         </li>
-    </ol>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Ordered List</h2>
+      An ordered list, or a list that uses numbers, letters, roman numerals, etc. <br>
+      This list uses type="i" for roman numerals.
+      <ol type="i">
+        <li>
+          item 1
+        </li>
+        <li>
+          item 2
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Description List</h2>
+      <dl>
+        <dt>item 1</dt>
+        <dd>Description of item 1.</dd>
+        <dt>Item 2</dt>
+        <dd>Description of item 2.</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>External Links in New Tab</h2>
+      <ul>
+        <li><a href="www.google.ie" target="_blank">google</a></li>
+      </ul>
+    </section>
+
+    <h2>Figure</h2>
+    <figure>
+      <img src="https://tse1.mm.bing.net/th/id/OIP.RQvO3mT3BFJM7KsqpQmRzgHaEk?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Programmer in messy office.">
+      <figcaption>A programmer in their natural habitat</figcaption>
+    </figure>
+  
+  </main>
+  
+  <footer>
+      <p>
+        All found on: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer" target="_blank">mdn_</a>
+        <br>
+        <a href="#">^Top^</a>
+      </p>
+    </footer>
 </body>
 </html>
-
